@@ -5,7 +5,7 @@ services:
         build: .docker/app
         container_name: app
         volumes:
-            - .:/var/www
+            - ./.docker/app:/var/www
         environment:
             - DB_HOST=db
             - DB_DATABASE=laravel
@@ -25,7 +25,7 @@ services:
         ports:
             - "8000:80"
         volumes:
-            - .:/var/www
+            - ./.docker/app:/var/www
         networks:
             - app-network
         depends_on: 
