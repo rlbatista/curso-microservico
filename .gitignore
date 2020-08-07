@@ -1,1 +1,15 @@
 dbdata/
+
+.docker/app/vendor
+.docker/app/node_modules
+.docker/app/public/hot
+.docker/app/public/storage
+.docker/app/storage/*.key
+.docker/app/vendor
+.docker/app.env
+.docker/app.env.backup
+.docker/app.phpunit.result.cache
+.docker/appHomestead.json
+.docker/appHomestead.yaml
+.docker/appnpm-debug.log
+.docker/appyarn-error.log
